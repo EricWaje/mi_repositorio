@@ -50,12 +50,25 @@ header{
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 2px;
+    text-align: center;
         &:hover{
         color: $colorNegro;
         background-color: $colorPiel;
         border-radius: 6px;
         transition: $transition;
         }
+}
+
+.lista-links{
+    width: 200px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width:990px){
+    .lista-links{
+        width: 600px;
+        margin-right: 20px;
+    }
 }
 
 .nav-link img{
