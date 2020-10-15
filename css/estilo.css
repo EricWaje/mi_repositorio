@@ -31,7 +31,7 @@ header {
     color: #000000;
     background-color: #e3c4a8;
     border-radius: 6px;
-    transition: all 0.3s ease-in; }
+    transition: all 0.2s ease-in; }
 
 .lista-links {
   width: 200px;
@@ -136,7 +136,7 @@ header {
     color: #ffffff;
     background-color: #226089bf;
     border: none;
-    transition: all 0.3s ease-in; }
+    transition: all 0.2s ease-in; }
 
 /* ------img con frase------ */
 #img-frase {
@@ -195,7 +195,7 @@ h6 {
   box-shadow: 0px 2px 14px -5px rgba(0, 0, 0, 0.75); }
   .boton:hover {
     background-color: #226089bf;
-    transition: all 0.3s ease-in; }
+    transition: all 0.2s ease-in; }
 
 iframe {
   margin: 0 auto; }
@@ -212,7 +212,7 @@ iframe {
   border-radius: 20px; }
   .card-contacto:hover {
     width: 280px;
-    transition: all 0.3s ease-in; }
+    transition: all 0.2s ease-in; }
   .card-contacto img {
     padding-top: 15px;
     width: 50px;
@@ -234,6 +234,9 @@ iframe {
   margin-top: 4rem;
   background-color: #e3c4a8; }
 
+.contenedor-logos {
+  height: 80px; }
+
 .fila-logos {
   width: 300px;
   margin: 0 auto; }
@@ -250,7 +253,7 @@ iframe {
     .container-logos img:hover {
       width: 45px;
       height: 45px;
-      transition: all 0.3s ease-in; }
+      transition: all 0.2s ease-in; }
 
 .text-white-50 {
   background-color: #226089;
@@ -296,7 +299,7 @@ iframe {
     background-color: #ffffff;
     color: #000000;
     border: 1px solid #000000;
-    transition: all 0.3s ease-in; }
+    transition: all 0.2s ease-in; }
 
 .container-botones {
   display: flex;
@@ -328,7 +331,7 @@ iframe {
   border-radius: 10px;
   cursor: pointer;
   filter: grayscale(1) brightness(0.5);
-  transition: all 0.3s ease-in; }
+  transition: all 0.2s ease-in; }
   .fila-seccion .columna img:hover {
     filter: grayscale(0) brightness(1); }
 
