@@ -220,7 +220,10 @@ iframe {
   background-color: #e3c4a8;
   border-radius: 20px; }
   .card-contacto:hover {
-    width: 280px;
+    /* width: 280px; */
+    -webkit-box-shadow: 0px 2px 14px -5px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 2px 14px -5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 2px 14px -5px rgba(0, 0, 0, 0);
     transition: all 0.2s ease-in; }
   .card-contacto img {
     padding-top: 15px;
@@ -271,20 +274,6 @@ iframe {
 #eric a {
   color: #ffffff;
   text-decoration: none; }
-
-/* ------carrito de compra------ */
-.sitioEnConst {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center; }
-  .sitioEnConst img {
-    width: 500px;
-    height: 500px; }
-  .sitioEnConst a img {
-    width: 50px;
-    height: 50px; }
 
 /* ----------paginas-html---------- */
 .titulo-seccion {
