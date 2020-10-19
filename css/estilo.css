@@ -72,6 +72,7 @@ header {
 
 #imagen-nosotros img {
   width: 500px;
+  margin-top: 80px;
   border-radius: 8px;
   -webkit-box-shadow: 0px 2px 14px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 2px 14px -5px rgba(0, 0, 0, 0.75);
@@ -80,15 +81,18 @@ header {
 /* ----------media queries img nosotros---------- */
 @media only screen and (min-width: 300px) {
   #imagen-nosotros img {
-    width: 300px; } }
+    width: 300px;
+    margin-top: 0px; } }
 
 @media only screen and (min-width: 576px) {
   #imagen-nosotros img {
-    width: 400px; } }
+    width: 400px;
+    margin-top: 0px; } }
 
 @media only screen and (min-width: 768px) {
   #imagen-nosotros img {
-    width: 500px; } }
+    width: 500px;
+    margin-top: 80px; } }
 
 /* ---------productos---------- */
 #productos {
