@@ -163,24 +163,24 @@
           <h1 class="text-center" id="titulo-contacto">CONTACTO</h1>
           <div class="row d-flex justify-content-center">
               <div class="col-lg-6 sm-12" data-aos="fade-up" data-aos-duration="2000">
-                  <form class="formulario">
+                  <form class="formulario" action="enviar.php" method="POST">
                       <div class="form-row">
                         <div class="col">
-                          <input type="text" class="form-control" placeholder="Nombre">
+                          <input type="text" name="nombre" class="form-control" placeholder="Nombre">
                         </div>
                         <div class="col">
-                          <input type="text" class="form-control" placeholder="Apellido">
+                          <input type="text" name="apellido" class="form-control" placeholder="Apellido">
                         </div>
                       </div>
                       <div class="form-group">
                           <label for="email"></label>
-                          <input type="email" class="form-control" id="email" placeholder="E-mail">
+                          <input type="email" name="mail" class="form-control" id="email" placeholder="E-mail">
                       </div>
                       <div class="form-group">
                           <label for="comentarios"></label>
-                          <textarea class="form-control" id="comentarios" rows="8" placeholder="Dejanos tu comentario" ></textarea>
+                          <textarea name="comentario" class="form-control" id="comentarios" rows="8" placeholder="Dejanos tu comentario" ></textarea>
                       </div>
-                      <button type="button" class="btn btn-primary btn-block boton" data-toggle="modal" data-target="#exampleModal">Enviar</button>
+                      <button type="submit" class="btn btn-primary btn-block boton" data-toggle="modal" data-target="#exampleModal">Enviar</button>
                   </form>
 
 
@@ -259,6 +259,7 @@
 <script>
   AOS.init();
 </script>
+
 
 
 </body>
